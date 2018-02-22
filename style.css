@@ -99,7 +99,7 @@ h1 {
   background-color: #82b1ff;
   border: 0;
   padding: 20px;
-  width: 300px;
+  width: 30%;
   transition: all 0.5s;
   box-shadow: 0px 2px 3px #1565c0;
 }
@@ -200,7 +200,22 @@ h1 {
     background-color: #4f95f0;
   }
 }
+@media (max-width: 940px) {
+  .button-two {
+    width: 50%;
+  }
+}
+@media (max-width: 400px) {
+  .button-two {
+    width: 90%;
+  }
+}
 
+@media (max-width: 365px) {
+  .button-two {
+    width: 100%;
+  }
+}
 .btn:focus,.btn:active, .button-two {
    outline: none !important;
    color: white;
